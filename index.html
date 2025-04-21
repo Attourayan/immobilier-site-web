@@ -6,10 +6,22 @@
 
     <title>site web Immobilier</title>
     <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      media="screen   and (max-width: 936px)   "
+      href="tablate.css"
+    />
+    <link
+    rel="stylesheet"
+    media="screen   and (max-width: 558px)   "
+    href="mobile.css"
+  />
     <script
       src="https://kit.fontawesome.com/2e566aa46d.js"
       crossorigin="anonymous"
     ></script>
+   
   </head>
   <body>
     <section class="header-home">
@@ -33,6 +45,26 @@
           <a href="#" class="login">Login</a>
           <a href="#" class="orange-link">Sign Up</a>
         </div>
+        <!-- responsive-menu -->
+
+        <div class="slide-menu" id="slide_menu">
+          <span class="btn_close_menu" id="btn_close_menu"><i class="fa-solid fa-xmark"></i></span>
+
+          <a href="#" class="menu-item">Home</a>
+          <a href="#" class="menu-item">Service</a>
+          <a href="#" class="menu-item">Project</a>
+          <a href="#" class="menu-item">Contact Us</a>
+          <a href="#" class="menu-item">Blog</a>
+          <a href="#" class="menu-item">Login</a>
+          <a href="#" class="menu-item">sign Out</a>
+        </div>
+
+        <div class="menu-open" id="menu_open">
+         <span> menu </span> 
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- /responsive-menu -->
       </header>
 
       <!-- /menu -->
@@ -175,7 +207,6 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           <a href="#" class="orange-link">order the deco</a>
         </div>
-       
       </div>
     </section>
     <!-- /decoration -->
@@ -191,14 +222,24 @@
         </p>
         <h2>contact us</h2>
         <ul class="list-social-media">
-          <li class="social-media-items">
-1
+          <li class="social-media-items facebook">
+            <a href="#"><i class="fa-brands fa-facebook"></i> </a>
           </li>
-          <li class="social-media-items">
-            2
+          <li class="social-media-items instegram">
+            <a href="#"><i class="fa-brands fa-instagram"></i> </a>
           </li>
-          <li class="social-media-items">
-         3  
+          <li class="social-media-items youtube">
+            <a href="#"> <i class="fa-brands fa-youtube"></i> </a>
+          </li>
+          <li class="social-media-items youtube">
+            <a href="#"> <i class="fa-brands fa-x-twitter"></i> </a>
+          </li>
+          <li class="social-media-items youtube">
+            <a href="#"> <i class="fa-brands fa-google-plus"></i> </a>
+          </li>
+
+          <li class="social-media-items youtube">
+            <a href="#"><i class="fa-brands fa-linkedin"></i> </a>
           </li>
         </ul>
       </div>
@@ -209,5 +250,5 @@
 
     <!-- /footer -->
   </body>
+  <script src="script.js"></script>
 </html>
- 

@@ -1,0 +1,85 @@
+:root {
+    --bg-body-primary: #faf8f4;
+    --bg-primary: #f26440;
+    --color-primary: #f26440;
+    --color-secondary: #999;
+    --color-dark: #333;
+    --color-light: #ddd;
+    --color-white : #fff;
+  }
+
+
+
+header{
+     
+    padding: 20px;
+    margin: 0;
+    height: auto;
+   
+}
+header .menu-link{
+    display: none;
+}
+.link-button{
+    display: none;
+}
+
+
+
+/* menu slidebar */
+.menu-open{
+ display: flex;
+ font-size: 22px;
+ cursor: pointer;
+ transition: .3s;
+ background: var(--bg-primary);
+ padding: 5px;
+ color: var(--color-white);
+ align-items: center;
+ box-shadow: 0 0  5px rgba(0, 0, 0, .1);
+ border-radius: 5px;
+}
+.menu-open:hover{
+    transform: rotate(10deg);
+    background-color: var(--color-white);
+    color: var(--color-primary);
+
+    border: 1px solid var(--color-primary);
+}
+.menu-open span{
+    font-size: 15px;
+    margin: 0px 5px;
+} 
+.slide-menu{
+ position:fixed;
+ width: 0px;
+ height: 100%;
+ z-index: 2;
+ top: 0;
+ left: 0;
+background:var(--color-dark);
+display: flex; 
+flex-direction: column;
+overflow: hidden;
+transition: .3s;
+}
+.btn_close_menu{
+    padding:10px 20px;
+    font-size: 30px;
+    color: var(--color-light);
+    text-align: end;
+    cursor: pointer;
+}
+.slide-menu a{
+    text-decoration: 0;
+    color: var(--color-light);
+    padding: 10px;
+}
+.slide-menu a:hover{
+    background: var(--bg-primary);
+    color: var(--color-dark);
+}
+.slide-menu a:nth-child(8){
+    background: var(--bg-primary);
+    color: var(--color-dark);
+}
