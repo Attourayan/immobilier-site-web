@@ -179,7 +179,7 @@ header .link-button .login {
 }
 .about .left {
   width: 55%;
-  height: 400px;
+  height: 500px;
 }
 
 .about .left img {
@@ -213,14 +213,11 @@ header .link-button .login {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+ 
 }
 
 .why_us .list-box {
-  /* display: flex;
-justify-content:space-between;
-align-items: center;
-padding: 20px 0px;
-gap: 10px; */
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 260px);
   gap: 20px;
@@ -320,6 +317,11 @@ footer .footer-bottom {
   color: var(--color-light);
   text-align: center;
   font-size: 14px;
+}
+footer .footer-content h2 {
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  text-transform: capitalize;
+  color: var(--color-dark);
 }
 footer .footer-content ul {
   text-decoration: none;

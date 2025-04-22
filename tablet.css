@@ -8,10 +8,16 @@
     --color-white : #fff;
   }
 
-
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    text-transform: capitalize;
+  }
 
 header{
-     
+    
     padding: 20px;
     margin: 0;
     height: auto;
@@ -83,3 +89,64 @@ transition: .3s;
     background: var(--bg-primary);
     color: var(--color-dark);
 }
+/* home */
+
+.home {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+  }
+  
+
+  /* about */
+
+.about {
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 2px 5px;
+ 
+  }
+  /* choise */
+
+.why_us {
+    margin: 10px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  
+    padding: 0px;
+  }
+  .why_us .list-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,32%);
+    gap: 10px;
+    padding: 5px;
+    justify-content: center;
+  
+  }
+  .why_us .list-box .box {
+ 
+    padding: 5px;
+ 
+  }
+  /* decoraion */
+.decoration {
+    margin: 5px 5px;
+     
+  }
+  .decoration .list-decoration-box {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 31.11%);
+    gap: 20px;
+  }
