@@ -11,3 +11,8 @@ btn_close_menu.addEventListener('click',(e)=>{
     slide_menu.style.width = "0"
     document.querySelector("body").style.overflow = "auto"
 }) 
+
+
+ScrollReveal().reveal('.home .left');
+ScrollReveal().reveal('.home .right', { delay: 500 });
+ 
